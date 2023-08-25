@@ -2,11 +2,12 @@
 
 header {
   display: flex;
+  border-bottom: var(--bottom-border);
   box-sizing: border-box;
   height: 7rem;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1.9rem 2rem 2rem 2rem;
+  padding: 1.9rem 2rem 2.1rem 2rem;
 }
 
 .header-logo {
@@ -40,7 +41,7 @@ header {
   font-family: var(--menu-item-font-family);
   letter-spacing: var(--menu-item-letter-spacing);
   text-transform: uppercase;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 

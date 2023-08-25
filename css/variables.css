@@ -1,6 +1,6 @@
-/* :root {
-  --font
-} */
+:root {
+  --bottom-border: 0.1rem solid #ebebeb;
+}
 
 header {
   --menu-item-color: #1d1f24;
