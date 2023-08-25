@@ -1,5 +1,9 @@
-nav {
+@import url("variables.css");
+
+header {
   display: flex;
+  box-sizing: border-box;
+  height: 7rem;
   flex-direction: row;
   justify-content: space-between;
   padding: 1.9rem 2rem 2rem 2rem;
@@ -8,4 +12,38 @@ nav {
 .header-logo {
   width: 6rem;
   height: 3rem;
+}
+
+.navigation-menu {
+  display: none;
+}
+
+.navigation-menu.open {
+  display: flex;
+  position: absolute;
+  top: 7rem;
+  left: 0;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.navigation-menu li {
+  font-size: var(--menu-item-font-size);
+  color: var(--menu-item-color);
+  opacity: var(--menu-item-opacity);
+  cursor: pointer;
+  font-weight: var(--menu-item-font-weight);
+  font-family: var(--menu-item-font-family);
+  letter-spacing: var(--menu-item-letter-spacing);
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.navigation-menu li:hover {
+  opacity: var(--menu-item-hover-opacity);
 }

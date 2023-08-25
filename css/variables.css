@@ -1,0 +1,13 @@
+/* :root {
+  --font
+} */
+
+header {
+  --menu-item-color: #1d1f24;
+  --menu-item-opacity: 0.2;
+  --menu-item-hover-opacity: 1;
+  --menu-item-font-size: 1.4rem;
+  --menu-item-font-weight: 500;
+  --menu-item-font-family: "Oswald", sans-serif;
+  --menu-item-letter-spacing: 0.175rem;
+}
