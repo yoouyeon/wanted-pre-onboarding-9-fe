@@ -38,7 +38,7 @@ header {
   opacity: var(--menu-item-opacity);
   cursor: pointer;
   font-weight: var(--menu-item-font-weight);
-  font-family: var(--menu-item-font-family);
+  font-family: var(--font-family-oswald);
   letter-spacing: var(--menu-item-letter-spacing);
   text-transform: uppercase;
   margin-bottom: 2rem;

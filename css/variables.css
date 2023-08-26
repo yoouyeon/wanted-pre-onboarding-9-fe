@@ -1,5 +1,7 @@
 :root {
   --bottom-border: 0.1rem solid #ebebeb;
+  --font-family-oswald: "Oswald", sans-serif;
+  --font-family-lato: "Lato", sans-serif;
 }
 
 header {
@@ -8,6 +10,13 @@ header {
   --menu-item-hover-opacity: 1;
   --menu-item-font-size: 1.4rem;
   --menu-item-font-weight: 500;
-  --menu-item-font-family: "Oswald", sans-serif;
   --menu-item-letter-spacing: 0.175rem;
+}
+
+main {
+  --category-background-color: #ff565c;
+  --category-font-size: 1.4rem;
+  --category-font-weight: 500;
+  --category-letter-spacing: 0.175rem;
+  --category-color: #ffffff;
 }
