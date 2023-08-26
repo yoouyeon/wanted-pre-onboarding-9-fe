@@ -2,7 +2,7 @@
 
 header {
   display: flex;
-  border-bottom: var(--bottom-border);
+  border-bottom: var(--border-bottom);
   box-sizing: border-box;
   height: 7rem;
   flex-direction: row;

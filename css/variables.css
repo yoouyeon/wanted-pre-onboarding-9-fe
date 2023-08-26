@@ -1,5 +1,9 @@
 :root {
-  --bottom-border: 0.1rem solid #ebebeb;
+  --font-color-dark: #1d1f24;
+  --font-color-light: #ffffff;
+  --background-white: #ffffff;
+  --background-brand: #ff565c;
+  --border-bottom: 0.1rem solid #ebebeb;
   --font-family-oswald: "Oswald", sans-serif;
   --font-family-lato: "Lato", sans-serif;
 }
