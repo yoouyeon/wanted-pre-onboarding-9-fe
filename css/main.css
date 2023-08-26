@@ -53,31 +53,6 @@
 
 /* finance_2 */
 
-#finance_2 {
-  display: flex;
-  flex-direction: column;
-  background-image: url("../assets/backgrounds/background2.png");
-  background-size: cover;
-}
-
-#finance_2 .category {
-  margin-top: 3rem;
-}
-
-#finance_2 .title {
-  margin: 2.2rem 6.6rem 0 2.5rem;
-  color: var(--font-color-light);
-  font-family: var(--font-family-lato);
-  font-size: 2.4rem;
-  font-weight: 600;
-  line-height: 3rem; /* 125% */
-  letter-spacing: -0.02rem;
-}
-
-#finance_2 .info {
-  margin: 4.1rem 0 2.1rem 2.8rem;
-}
-
 /* brand-card */
 
 #brand-card {
@@ -214,3 +189,31 @@ main {
 }
 
 /* card */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+}
+
+.card .category {
+  margin-top: 3rem;
+}
+
+.card .title {
+  margin: 2.2rem 6.6rem 0 2.5rem;
+  color: var(--font-color-light);
+  font-family: var(--font-family-lato);
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 3rem; /* 125% */
+  letter-spacing: -0.02rem;
+}
+
+.card .info {
+  margin: 4.1rem 0 2.1rem 2.8rem;
+}
+
+#finance_2 {
+  background-image: url("../assets/backgrounds/background2.png");
+}
