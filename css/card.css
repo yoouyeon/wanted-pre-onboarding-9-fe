@@ -1,51 +1,6 @@
 @import url(variables.css);
 
-/* brand-card */
-
-#brand-card {
-  background-color: var(--background-brand);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 3.7rem 2.8rem 4rem 2.5rem;
-}
-
-#brand-card .title {
-  color: var(--font-color-light);
-  font-family: var(--font-family-oswald);
-  font-size: 2.6rem;
-  font-weight: 500;
-  line-height: 4rem; /* 153.846% */
-  letter-spacing: -0.0382rem;
-  text-transform: uppercase;
-  margin-bottom: 2.1rem;
-}
-
-#brand-card .content {
-  color: var(--font-color-light);
-  font-family: var(--font-family-lato);
-  font-size: 1.8rem;
-  font-weight: 400;
-  line-height: 3rem; /* 166.667% */
-  margin-bottom: 3rem;
-}
-
-#brand-card button {
-  border: var(--button-border);
-  border-bottom: var(--button-border-bottom);
-  padding: 1.8rem 6.35rem;
-  color: var(--font-color-light);
-  text-align: center;
-  font-family: var(--font-family-oswald);
-  font-size: 1.6rem;
-  font-weight: 600;
-  letter-spacing: 0.08rem;
-  text-transform: uppercase;
-}
-
-/* ANCHOR - refactor */
-
-/* main-content */
+/* ANCHOR - main-content */
 
 main {
   padding: 0 2.1rem 10rem 2.1rem;
@@ -55,7 +10,7 @@ main {
   margin-top: 2rem;
 }
 
-/* common component */
+/* ANCHOR - common component */
 
 .category {
   width: 10.7rem;
@@ -104,7 +59,7 @@ main {
   margin-right: 1.1rem;
 }
 
-/* main-card */
+/* ANCHOR - main-card */
 
 .main-card {
   display: flex;
@@ -130,12 +85,7 @@ main {
   margin-bottom: 7.7rem;
 }
 
-#finance_1 {
-  background-image: url("../assets/backgrounds/background1.png");
-  background-position: -10rem 0;
-}
-
-/* card */
+/* ANCHOR - card */
 
 .card {
   display: flex;
@@ -161,11 +111,7 @@ main {
   margin: 4.1rem 0 2.1rem 2.8rem;
 }
 
-#finance_2 {
-  background-image: url("../assets/backgrounds/background2.png");
-}
-
-/* list card */
+/* ANCHOR - list card */
 
 .list-card {
   display: flex;
@@ -214,4 +160,58 @@ main {
   font-weight: 500;
   text-transform: uppercase;
   opacity: 0.1662;
+}
+
+/* ANCHOR - color card */
+
+.color-card {
+  background-color: var(--background-brand);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3.7rem 2.8rem 4rem 2.5rem;
+}
+
+.color-card .title {
+  color: var(--font-color-light);
+  font-family: var(--font-family-oswald);
+  font-size: 2.6rem;
+  font-weight: 500;
+  line-height: 4rem; /* 153.846% */
+  letter-spacing: -0.0382rem;
+  text-transform: uppercase;
+  margin-bottom: 2.1rem;
+}
+
+.color-card .content {
+  color: var(--font-color-light);
+  font-family: var(--font-family-lato);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem; /* 166.667% */
+  margin-bottom: 3rem;
+}
+
+.color-card button {
+  border: var(--button-border);
+  border-bottom: var(--button-border-bottom);
+  padding: 1.8rem 6.35rem;
+  color: var(--font-color-light);
+  text-align: center;
+  font-family: var(--font-family-oswald);
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08rem;
+  text-transform: uppercase;
+}
+
+/* ANCHOR - detail */
+
+#finance_1 {
+  background-image: url("../assets/backgrounds/background1.png");
+  background-position: -10rem 0;
+}
+
+#finance_2 {
+  background-image: url("../assets/backgrounds/background2.png");
 }
