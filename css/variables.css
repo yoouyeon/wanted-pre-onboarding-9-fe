@@ -26,3 +26,7 @@ main {
   --button-border: 1px solid rgba(255, 255, 255, 0.7);
   --button-border-bottom: 0.2rem solid #fff;
 }
+
+footer {
+  --background-color: #1d1f24;
+}
