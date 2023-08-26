@@ -1,58 +1,5 @@
 @import url(variables.css);
 
-/* Featured stories */
-
-#featured-stories {
-  display: flex;
-  flex-direction: column;
-  background-color: #ffffff;
-}
-
-#featured-stories .title {
-  color: var(--font-color-dark);
-  font-family: var(--font-family-oswald);
-  font-size: 1.4rem;
-  font-weight: 500;
-  letter-spacing: 0.1531rem;
-  text-transform: uppercase;
-  margin: 3.5rem 0 0 2.57rem;
-}
-
-#featured-stories .content-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  counter-reset: index;
-}
-
-#featured-stories .content {
-  display: flex;
-  flex-direction: row;
-  color: #1d1f24;
-  font-family: var(--font-family-lato);
-  word-break: keep-all;
-  font-size: 1.8rem;
-  font-weight: 500;
-  line-height: 2.6rem; /* 144.444% */
-  letter-spacing: -0.02rem;
-  padding: 2.8rem 5.5rem 2.9rem 2.7rem;
-  border-bottom: var(--border-bottom);
-}
-
-#featured-stories .content::before {
-  counter-increment: index;
-  content: counter(index);
-  margin-right: 2.5rem;
-  color: #1d1f24;
-  font-family: var(--font-family-oswald);
-  font-size: 1.8rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  opacity: 0.1662;
-}
-
-/* finance_2 */
-
 /* brand-card */
 
 #brand-card {
@@ -216,4 +163,55 @@ main {
 
 #finance_2 {
   background-image: url("../assets/backgrounds/background2.png");
+}
+
+/* list card */
+
+.list-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.list-card .title {
+  color: var(--font-color-dark);
+  font-family: var(--font-family-oswald);
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0.1531rem;
+  text-transform: uppercase;
+  margin: 3.5rem 0 0 2.57rem;
+}
+
+.list-card .content-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: index;
+}
+
+.list-card .content {
+  display: flex;
+  flex-direction: row;
+  color: #1d1f24;
+  font-family: var(--font-family-lato);
+  word-break: keep-all;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.6rem; /* 144.444% */
+  letter-spacing: -0.02rem;
+  padding: 2.8rem 5.5rem 2.9rem 2.7rem;
+  border-bottom: var(--border-bottom);
+}
+
+.list-card .content::before {
+  counter-increment: index;
+  content: counter(index);
+  margin-right: 2.5rem;
+  color: #1d1f24;
+  font-family: var(--font-family-oswald);
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  opacity: 0.1662;
 }
