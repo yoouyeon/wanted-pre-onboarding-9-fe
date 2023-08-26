@@ -170,7 +170,7 @@ main {
 .list-card {
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
+  background-color: var(--background-white);
 }
 
 .list-card .title {
@@ -193,7 +193,7 @@ main {
 .list-card .content {
   display: flex;
   flex-direction: row;
-  color: #1d1f24;
+  color: var(--font-color-dark);
   font-family: var(--font-family-lato);
   word-break: keep-all;
   font-size: 1.8rem;
@@ -208,7 +208,7 @@ main {
   counter-increment: index;
   content: counter(index);
   margin-right: 2.5rem;
-  color: #1d1f24;
+  color: var(--font-color-dark);
   font-family: var(--font-family-oswald);
   font-size: 1.8rem;
   font-weight: 500;
