@@ -2,9 +2,10 @@ html {
   font-size: 10px;
 }
 
-/* body {
-  min-width: 37.5rem;
-} */
+body {
+  background: #f9fafc;
+  margin: 0;
+}
 
 button {
   background: none;

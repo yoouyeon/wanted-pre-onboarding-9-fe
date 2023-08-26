@@ -8,6 +8,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   padding: 1.9rem 2rem 2.1rem 2rem;
+  background: #ffffff;
 }
 
 .header-logo {
