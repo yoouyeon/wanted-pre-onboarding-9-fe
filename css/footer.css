@@ -54,3 +54,20 @@ footer {
   letter-spacing: 0.15rem;
   text-transform: uppercase;
 }
+
+.social-container {
+  display: flex;
+}
+
+.social-container .title {
+  color: var(--font-color-light);
+  font-family: var(--font-family-lato);
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  opacity: 0.7;
+}
+
+.social-container .icon {
+  display: flex;
+  margin-left: 1.5rem;
+}
