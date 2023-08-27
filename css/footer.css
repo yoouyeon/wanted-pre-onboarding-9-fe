@@ -71,3 +71,47 @@ footer {
   display: flex;
   margin-left: 1.5rem;
 }
+
+#footer-navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.7rem 6.5rem;
+  margin-top: 3rem;
+}
+
+#footer-navigation li {
+  color: var(--font-color-light);
+  font-family: var(--font-family-oswald);
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0.175rem;
+  text-transform: uppercase;
+}
+
+#footer-navigation .tech {
+  grid-area: "tech";
+}
+
+#footer-navigation .video {
+  grid-area: "video";
+}
+
+#footer-navigation .ideas {
+  grid-area: "ideas";
+}
+
+#footer-navigation .news {
+  grid-area: "news";
+}
+
+#footer-navigation .entertainment {
+  grid-area: "entertainment";
+}
+
+#footer-navigation .finance {
+  grid-area: "finance";
+}
+
+#footer-navigation .leadership {
+  grid-area: "leadership";
+}
